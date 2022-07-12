@@ -1,0 +1,527 @@
+<!-- <?php
+$server = "localhost";
+$username = "root";
+$password = "";
+$dbname = "reviewform";
+$insert = false;
+$con = mysqli_connect($server,$username,$password,$dbname);
+
+if (!$con) {
+    die("Connection to this database failed due to".mysqli_connect_error());
+}
+
+$name = $_POST['Name'];
+$email = $_POST['Email'];
+$gender = $_POST['gender'];
+$review = $_POST['rev'];
+$rate = $_POST['rate'];
+
+$sql = "INSERT INTO `reviewform`.`reviewform`(`Name`, `Email`, `Gender`, `Reviews`, `Rating`, `Date&Time`) VALUES ('$name','$email','$gender','$review', '$rate',current_timestamp());";
+// echo $sql;
+
+if ($con->query($sql)==true) {
+    $insert = true;
+}
+else {
+   echo "Error :$sql <br> $con->error()";
+}
+$con->close();
+?> -->
+
+<!-- //// database connection code
+$con = mysqli_connect('localhost', 'root', '','db_contact');
+
+$name = $_POST['Name'];
+$email = $_POST['Email'];
+$gender = $_POST['gender'];
+$review = $_POST['rev'];
+$rate = $_POST['rate'];
+
+
+// database insert SQL code
+$sql = "INSERT INTO `reviewform`.`reviewform`(`Name`, `Email`, `Gender`, `Reviews`, `Rating`, `Date&Time`) VALUES ('$name','$email','$gender','$review', '$rate',current_timestamp());";
+// insert in database 
+$rs = mysqli_query($con, $sql);
+if($rs)
+{
+	echo "Contact Records Inserted";
+}
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GupSup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header id="toppage">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">Menu</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <ul>
+                    <li><a href="#spec">Our Specilsations</a></li>
+                    <li><a href="#recm">Our Recomendation's</a></li>
+                    <li><a href="#revsec">Reviews</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#spec">Our Specilsations</a></li>
+                <li><a href="#recm">Our Recomendation's</a></li>
+                <li><a href="#revsec">Reviews</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="intro">
+            <div class="ph1">
+                <img src="background1-min.jpg" alt="blurimg">
+                <h1>GupSup</h1>
+                <h2>Sweet and Delite</h2>
+                <div id="mainlogo">
+                    <img src="logo4.gif" alt="mainlogo">
+                </div>
+                <div class="but">
+                    <button><a href="#spec">Our Specialisations</a></button>
+                </div>
+            </div>
+            <div class="ph2">
+                <img src="restaurant-06.jpg" alt="restroimg">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div id="spec">
+                <h1>Our Specilsations</h1>
+                <h2>Delite recipies for Delite People</h2>
+            </div>
+            <div class="specph">
+                <div class="r1">
+                    <div class="p-1">
+                        <img src="paneer-tikka-image-min.jpg" alt="paneer tika">
+                        <div class="itemss">
+                            <h2>Paneer Tikka</h2>
+                            <button id="r1p1but">Add+</button>
+                        </div>
+                        <h3>Special 25% Discount</h3>
+                        <h4>Only <span>Rs.1000</span> Rs.750</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi deleniti earum quod nostrum
+                            distinctio repudiandae explicabo, nihil recusandae molestias ipsam harum, optio, culpa iure!
+                            Assumenda, error praesentium obcaecati voluptatum possimus cumque saepe, tempora quaerat
+                            expedita exercitationem ut unde, recusandae autem.</p>
+                    </div>
+                    <div class="p-2">
+                        <img src="pasta-image-min.jpg" alt="pasta">
+                        <div class="itemss">
+                            <h2>Pasta</h2>
+                            <button id="r1p2but">Add+</button>
+                        </div>
+                        <h3>Special 15% Discount</h3>
+                        <h4>Only <span>Rs.600</span> Rs.510</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officia commodi praesentium
+                            aliquam. Temporibus accusantium cumque nemo quo maxime ullam! Maiores reprehenderit dolorem
+                            amet recusandae nostrum optio officiis vel possimus explicabo itaque commodi doloribus,
+                            similique blanditiis suscipit nisi consequatur vitae.</p>
+                    </div>
+                    <div class="p-3">
+                        <img src="pav-bhaji-image.jpg" alt="pav bhaji">
+                        <div class="itemss">
+                            <h2>Pav Bhaji</h2>
+                            <button id="r1p3but">Add+</button>
+                        </div>
+                        <h3>Special 20% Discount</h3>
+                        <h4>Only <span>Rs.500</span> Rs.400</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla corporis nihil soluta,
+                            cupiditate ab corrupti excepturi nostrum vitae minus. Mollitia molestiae numquam, explicabo
+                            aliquid vero maiores hic ea asperiores sapiente reprehenderit necessitatibus quasi dolor vel
+                            eum voluptates repudiandae sunt beatae!</p>
+                    </div>
+                </div>
+                <div class="r2">
+                    <div class="p-1">
+                        <img src="burger-image.jpg" alt="burger">
+                        <div class="itemss">
+                            <h2>Burger</h2>
+                            <button id="r2p1but">Add+</button>
+                        </div>
+                        <h3>Special 25% Discount</h3>
+                        <h4>Only <span>Rs.400</span> Rs.300</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, culpa! Animi sit suscipit
+                            ducimus dignissimos deleniti. Quam, reprehenderit qui quas delectus quos neque totam
+                            accusamus aliquam accusantium? Quaerat nihil optio minima saepe eveniet repellendus sequi
+                            recusandae, modi doloribus magni unde.</p>
+                    </div>
+                    <div class="p-2">
+                        <img src="dal image.jpg" alt="dal">
+                        <div class="itemss">
+                            <h2>Dal</h2>
+                            <button id="r2p2but">Add+</button>
+                        </div>
+                        <h3>Special 15% Discount</h3>
+                        <h4>Only <span>Rs.200</span> Rs.170</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis animi tenetur laborum
+                            ducimus nam consequatur eius quis praesentium quidem accusantium ut magnam neque
+                            exercitationem, autem placeat voluptas ea iste veritatis alias dicta, voluptatem, error quia
+                            dolor quod. Similique, eaque assumenda!</p>
+                    </div>
+                    <div class="p-3">
+                        <img src="dosa-image.jpeg" alt="dosaa">
+                        <div class="itemss">
+                            <h2>Dosa</h2>
+                            <button id="r2p3but">Add+</button>
+                        </div>
+                        <h3>Special 20% Discount</h3>
+                        <h4>Only <span>Rs.500</span> Rs.400</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit natus aliquid nostrum ea.
+                            Ipsa, ea esse? Est soluta quibusdam aut id, minima voluptas vitae consequuntur officiis
+                            inventore enim incidunt! Optio consequuntur doloribus voluptates aperiam aliquid ipsa eos
+                            rem sed sunt!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="nc">
+            <div>
+                <div id="recm">
+                    <h1>Our Recomendation</h1>
+                    <h2>If once got in touch you will make it your Habit</h2>
+                    <div class="srh">
+                        <input type="text" placeholder="Search dishes here">
+                        <img src="srh logo.svg" alt="Search logo" class="srhlogo">
+                    </div>
+                </div>
+                <div class="rc1">
+                    <div class="p1">
+                        <img src="pizza2-image.jpg" alt="pizza">
+                        <div class="itemss">
+                            <h2>Pizza</h2>
+                            <button id="rc1p1but">Add+</button>
+                        </div>
+                        <h3>Special 40% Discount</h3>
+                        <h4>Only <span>Rs.1000</span> Rs.600</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sint repellat officiis
+                            minima accusantium optio tenetur, minus eligendi! Nihil cumque placeat nobis adipisci
+                            possimus distinctio maiores dolore corrupti pariatur quaerat?</p>
+                    </div>
+                    <div class="p2">
+                        <img src="pasta-red-image.jpg" alt="red pasta">
+                        <div class="itemss">
+                            <h2>Red Pasta</h2>
+                            <button id="rc1p2but">Add+</button>
+                        </div>
+                        <h3>Special 15% Discount</h3>
+                        <h4>Only <span>Rs.600</span> Rs.510</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, excepturi. Praesentium,
+                            doloremque aperiam eveniet ex aliquid id dolorum voluptate velit error fuga autem ea
+                            distinctio, voluptatibus maxime veniam ut expedita?</p>
+                    </div>
+                    <div class="p3">
+                        <img src="shahipaneer-image.jpg" alt="Shahipaneer">
+                        <div class="itemss">
+                            <h2>Shahipaneer</h2>
+                            <button id="rc1p3but">Add+</button>
+                        </div>
+                        <h3>Special 25% Discount</h3>
+                        <h4>Only <span>Rs.600</span> Rs.450</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repellendus, voluptates vel
+                            consequatur excepturi suscipit beatae necessitatibus in, incidunt eligendi error deserunt
+                            magnam similique odio. Facere omnis quis possimus labore.</p>
+                    </div>
+                    <div class="p4">
+                        <img src="sandwich-image.jpg" alt="sandwich">
+                        <div class="itemss">
+                            <h2>Sandwich</h2>
+                            <button id="rc1p4but">Add+</button>
+                        </div>
+                        <h3>Special 20% Discount</h3>
+                        <h4>Only <span>Rs.600</span> Rs.400</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit distinctio velit veritatis
+                            reprehenderit provident dolorem nesciunt nihil necessitatibus error omnis, expedita nulla
+                            illo qui autem vel quos. Aspernatur, quam voluptas!</p>
+                    </div>
+                </div>
+                <div class="rc2">
+                    <div class="p1">
+                        <img src="roti.jfif" alt="Roti">
+                        <div class="itemss">
+                            <h2>Roti</h2>
+                            <button id="rc2p1but">Add+</button>
+                        </div>
+                        <h3>Special 10% Discount</h3>
+                        <h4>Only <span>Rs.300</span> Rs.270</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore doloribus incidunt
+                            praesentium nobis dicta cum aperiam dignissimos quas eius nostrum earum, eos assumenda
+                            libero porro modi tenetur quam. Provident, iure!</p>
+                    </div>
+                    <div class="p2">
+                        <img src="samosa.jpg" alt="samosa">
+                        <div class="itemss">
+                            <h2>Samosa</h2>
+                            <button id="rc2p2but">Add+</button>
+                        </div>
+                        <h3>Special 20% Discount</h3>
+                        <h4>Only <span>Rs.100</span> Rs.80</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta sequi, asperiores ea quae eum
+                            temporibus quidem sit assumenda voluptatem consequatur, veritatis rem magnam alias eaque
+                            culpa! Exercitationem est consectetur dolor?</p>
+                    </div>
+                    <div class="p3">
+                        <img src="samosa pkoda.jpg" alt="Pakoda Samosa">
+                        <div class="itemss">
+                            <h2>Pakoda</h2>
+                            <button id="rc2p3but">Add+</button>
+                        </div>
+                        <h3>Special 30% Discount</h3>
+                        <h4>Only <span>Rs.1000</span> Rs.700</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sit adipisci tenetur,
+                            necessitatibus tempore, modi debitis voluptatibus suscipit ab nobis eligendi magni cumque
+                            aspernatur quibusdam veniam consequuntur. Blanditiis, corrupti minima!</p>
+                    </div>
+                    <div class="p4">
+                        <img src="aalu tiki.jpg" alt="Aalu Tiki">
+                        <div class="itemss">
+                            <h2>Aalu Tiki</h2>
+                            <button id="rc2p4but">Add+</button>
+                        </div>
+                        <h3>Special 10% Discount</h3>
+                        <h4>Only <span>Rs.500</span> Rs.450</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique unde doloremque quas!
+                            Quia aliquam perferendis ipsa corrupti praesentium, incidunt quaerat inventore eveniet cum
+                            in. Quae omnis quam quasi sapiente consequatur.</p>
+                    </div>
+                </div>
+                <div class="rc3">
+                    <div class="p1">
+                        <img src="Mirchi Vada.jfif" alt="Mirchi Vada">
+                        <div class="itemss">
+                            <h2>Mirchi Vada</h2>
+                            <button id="rc3p1but">Add+</button>
+                        </div>
+                        <h3>Special 25% Discount</h3>
+                        <h4>Only <span>Rs.600</span> Rs.450</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia error quae quisquam recusandae
+                            animi, in debitis laborum voluptatem aliquid, illo sed, dolorem dolores at modi dolorum
+                            molestias pariatur quos amet!</p>
+                    </div>
+                    <div class="p2">
+                        <img src="pasta-red-image.jpg" alt="red pasta">
+                        <div class="itemss">
+                            <h2>Red Pasta</h2>
+                            <button id="rc3p2but">Add+</button>
+                        </div>
+                        <h3>Special 15% Discount</h3>
+                        <h4>Only <span>Rs.600</span> Rs.510</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur excepturi ab sunt
+                            sapiente eaque veniam quia quibusdam temporibus earum quo repellat obcaecati asperiores,
+                            numquam ullam dolore. Velit rerum qui aperiam.</p>
+                    </div>
+                    <div class="p3">
+                        <img src="dosa-image.jpeg" alt="dosa">
+                        <div class="itemss">
+                            <h2>Dosa</h2>
+                            <button id="rc3p3but">Add+</button>
+                        </div>
+                        <h3>Special 20% Discount</h3>
+                        <h4>Only <span>Rs.500</span> Rs.400</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reprehenderit iste eos amet,
+                            sapiente delectus soluta eius voluptate quae! Similique illo cum incidunt voluptatum ipsam
+                            vero dolore suscipit repellat enim.</p>
+                    </div>
+                    <div class="p4">
+                        <img src="burger.jfif" alt="burger">
+                        <div class="itemss">
+                            <h2>Burger</h2>
+                            <button id="rc3p4but">Add+</button>
+                        </div>
+                        <h3>Special 25% Discount</h3>
+                        <h4>Only <span>Rs.400</span> Rs.300</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptates unde nihil
+                            sequi. Quis maxime molestias accusantium asperiores optio. Quis quos facere odit est porro
+                            voluptatem eaque eveniet nobis quibusdam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="revsec" class="review-section">
+            <div class="container">
+                <h3>Review Section</h3>
+                <div class="reviewflex">
+                    <div>
+                        <img src="user.png" alt="">
+                        <h2 style="text-align: center; margin: 4%;">Jai Soni</h2>
+                        <p style="text-align: center; margin: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iste minima dolore eos soluta tenetur quisquam.</p>
+                    </div>
+                    <div>
+                        <img src="user.png" alt="">
+                        <h2 style="text-align: center; margin: 4%;">Ronak Khichar</h2>
+                        <p style="text-align: center; margin: 3%;">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Corporis nam officiis at quaerat possimus est!</p>
+                    </div>
+                    <div>
+                        <img src="user.png" alt="">
+                        <h2 style="text-align: center; margin: 4%;">Mahim Jain</h2>
+                        <p style="text-align: center; margin: 3%;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Illo aliquid sapiente excepturi quaerat optio ipsam.</p>
+                    </div>
+                    <div>
+                        <img src="user.png" alt="">
+                        <h2 style="text-align: center; margin: 4%;">Rohit Solanki</h2>
+                        <p style="text-align: center; margin: 3%;">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Quo ipsum atque velit exercitationem iusto ex?</p>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div>
+                    <div class="rev" id="reu">
+                        <h2>Restaurant Location</h2>
+                    </div>
+                    <div id="Reviews">
+                        <!-- <?php
+                            if($insert==true){
+                                echo "<p class = 'submitmsg' style = 'color: green;
+                                font-size: 24px;
+                                margin-left: 14px;'>Your Response is Submitted Sucessfully</p>";	
+                            }
+                            ?> -->
+                        <div class="feedbackplace">
+                            <div class="map">
+                                <iframe class="gupsupmap"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653275.890783745!2d73.87375599271111!3d26.595532617928026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db693848247d9%3A0x110e9f847519510e!2sGupshup%20Thikana!5e0!3m2!1sen!2sin!4v1657204808013!5m2!1sen!2sin"
+                                    allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="revfed">
+                                <h1>Review Us Here</h1>
+                            </div>
+                            <form action="index.php" method="post">
+                                <label for="name" style="font-size: 23px;">Full Name:</label><br>
+                                <input type="text" name="Name" id="fullname" placeholder="Full Name" required> <br>
+                                <label for="email" style="font-size: 23px;">Email:</label><br>
+                                <input type="email" name="Email" id="email" placeholder="Email" required><br>
+                                <label for="gender" style="font-size: 23px;">Gender:</label>
+                                <input type="radio" name="gender" value="male" id="male" required>
+                                <label for="male" style="font-size: 23px;">Male</label>
+                                <input type="radio" name="gender" value="female" id="female">
+                                <label for="female" style="font-size: 23px;">Female</label><br><br>
+                                <label for="rev" style="font-size: 23px;">Review:</label><br>
+                                <textarea name="rev" id="rev" placeholder="Type the review here" rows="4"
+                                    cols="50"></textarea><br>
+                                <label for="rate" style="font-size: 23px;">Rate our Restaurant:<div class="brhere"><br>
+                                    </div></label>
+                                <input type="radio" name="rate" id="rat1" value="poor">
+                                <label for="rat1" style="font-size: 23px;">Poor</label>
+                                <input type="radio" name="rate" id="rat2" value="good">
+                                <label for="rat2" style="font-size: 23px;">Good</label>
+                                <input type="radio" name="rate" id="rat3" value="excelent">
+                                <label for="rat3" style="font-size: 23px;">Excellent</label><br>
+                                <button inputmode="submit" class="sbmt">Submit Review</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="footcontainer container-fluid">
+            <div class="sec aboutus" id="contact-us">
+                <h2 class="footh2">About us</h2>
+                <p style="color: cornsilk;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum vero fugiat commodi similique dolor.
+                    Cupiditate omnis aperiam numquam consequatur unde temporibus aliquam quos nulla quidem assumenda!
+                    Saepe tempora harum obcaecati.
+                </p>
+
+                <ul class="sci">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://myaccount.google.com/profile?pli=1" target="_blank"><i
+                                class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://wa.me/+919521189214?text=I%20wish%20to%20order%20some%20food%20from%20your%20store."
+                            target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sec quicklinks">
+
+                <h2 class="footh2">Quick Links</h2>
+                <ul>
+                    <li><a href="#toppage">Home</a></li>
+                    <li><a href="#spec">Our Specialities</a></li>
+                    <li><a href="#recm">Search</a></li>
+                    <li><a href="#recm">Our Recomendations</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+
+            </div>
+            <div class="sec contact">
+                <h2 class="footh2">Contact Info</h2>
+                <ul class="info infof" style="background: #111;">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i> </span>
+                        <span>
+                            <p>Near Lal Bahadur Shastri PG College Jaipur,Rajasthan</p>
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i> </span>
+                        <span>
+                            <p>
+                                <a href="tel:1234567890">123-456-7890</a>
+                            </p>
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i> </span>
+                        <span>
+                            <p>
+                                <a href="mailto:example@gmail.com">example@gmail.com</a>
+                            </p>
+                        </span>
+                        <button class="topp"> <a href="#top" class="colorchangekar">Back To Top</a></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrightText">
+        <p>copyright &copy;2021, All rights reserved with GupSup</p>
+        <a href="https://restaurantbluepepper.com/terms-and-conditions/" style="color: white;" target="_blank">Terms &
+            Conditions</a>
+        <a href="https://restaurantmason.com/privacy-policy" style="color: white;" target="_blank">Privacy Policy</a>
+    </div>
+</body>
+<script src="sandbox.js"></script>
+
+</html>

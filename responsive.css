@@ -1,0 +1,1721 @@
+@media only screen and (max-width: 1300px) {
+    header {
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    main form {
+        padding: 30px 0px 0 2%;
+        margin: 0 1% 1% 1%;
+        width: 48%;
+    }
+
+    main button.sbmt {
+        width: 96%;
+    }
+
+    .gupsupmap {
+        width: 96%;
+        height: 97%;
+        margin: 0 0% 2% 2%;
+    }
+
+    div.rev h2 {
+        margin-left: 6%;
+    }
+
+    .revfed h1 {
+        margin-left: 55px;
+    }
+
+    footer {
+        margin: 0;
+        width: 100%;
+        padding: 40px 10px 15px;
+    }
+
+    .topp {
+        left: 66%;
+        top: 110%;
+    }
+
+    .copyrightText {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    header {
+        margin: 0;
+    }
+
+    header nav ul li {
+        list-style: none;
+        font-size: 20px;
+    }
+
+    header div.intro {
+        display: block;
+    }
+
+    header div.intro h1 {
+        left: 36%;
+        top: 1%;
+    }
+
+    header div.intro h2 {
+        left: 34%;
+        font-size: 3rem;
+        top: 8%;
+    }
+
+    #mainlogo img {
+        width: 300px;
+        top: 13%;
+        height: 300px;
+        left: 36%;
+    }
+
+    .but button {
+        top: 37%;
+        left: 33%;
+        height: 5%;
+    }
+
+    header div.intro .ph1 {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    header div.intro .ph2 {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    header div.intro .ph2 img {
+        margin-bottom: 40px;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    .specph {
+        display: flex;
+    }
+
+    .r1 {
+        display: inline-block;
+        width: 46%;
+    }
+
+    .r2 {
+        display: inline-block;
+        width: 46%;
+    }
+
+    .r1 .p-1 {
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+        margin-left: 15px;
+        height: 580px;
+        margin-bottom: 30px;
+    }
+
+    .r1 .p-2 {
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+        margin-left: 15px;
+        height: 580px;
+        margin-bottom: 30px;
+    }
+
+    .r1 .p-3 {
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+        margin-left: 15px;
+        height: 580px;
+        margin-bottom: 30px;
+    }
+
+    .r2 .p-1 {
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+        margin-left: 45px;
+        height: 580px;
+        margin-bottom: 30px;
+    }
+
+    .r2 .p-2 {
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+        margin-left: 45px;
+        height: 580px;
+        margin-bottom: 30px;
+    }
+
+    .r2 .p-3 {
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+        margin-left: 45px;
+        height: 580px;
+        margin-bottom: 30px;
+    }
+
+    #recm .srh input {
+        width: 80%;
+        padding-left: 12px;
+        margin-bottom: 40px;
+    }
+
+    #recm .srh img {
+        position: absolute;
+        width: 4%;
+        top: 23%;
+        right: 11%;
+    }
+
+    div.rc1 {
+        display: inline-block;
+    }
+
+    div.rc2 {
+        display: inline-block;
+    }
+
+    div.rc3 {
+        display: inline-block;
+    }
+
+    .rc1 .p1 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc1 .p2 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc1 .p3 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc1 .p4 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc2 .p1 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc2 .p2 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc2 .p3 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc2 .p4 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc3 .p1 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc3 .p2 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc3 .p3 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    .rc3 .p4 {
+        display: inline-block;
+        width: 46.5%;
+    }
+
+    main form {
+        padding: 30px 50px 0;
+        margin: 0 1% 1% 1%;
+    }
+
+    .gupsupmap {
+        width: 96%;
+        height: 97%;
+        margin: 0 0% 2% 2%;
+    }
+
+    .revfed h1 {
+        margin-left: 140px;
+    }
+
+    footer {
+        margin: 0;
+        width: 100%;
+        padding: 40px 50px 15px;
+    }
+
+    .topp {
+        left: 75%;
+    }
+
+    .feedbackplace {
+        display: block;
+    }
+
+    div.rev h2 {
+        font-size: 54px;
+        margin-left: 15%;
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 12px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .revfed {
+        text-align: left;
+        display: block;
+    }
+
+    .revfed h1 {
+        display: block;
+        font-size: 54px;
+        margin-top: 2%;
+        margin-right: 0%;
+        position: relative;
+        margin-bottom: 2%;
+        margin-left: 24%;
+    }
+
+    main form {
+        width: 100%;
+        padding: 0;
+        padding-left: 2%;
+        padding-top: 3%;
+    }
+
+    #fullname {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #email {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #male {
+        margin: 0px 2% 0 6%;
+        margin-bottom: 3%;
+    }
+
+    #female {
+        margin: 0px 2% 0 6%;
+        margin-bottom: 3%;
+    }
+
+    #rev {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #rat1 {
+        margin: 2%;
+    }
+
+    #rat2 {
+        margin: 2%;
+    }
+
+    #rat3 {
+        margin: 2%;
+    }
+
+    footer {
+        padding: 17px 0px 0px 11px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footcontainer {
+        flex-direction: column;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footcontainer .sec.aboutus,
+    .quicklinks,
+    .contact {
+        width: 100%;
+    }
+
+    .topp {
+        width: 27%;
+        height: 36%;
+        font-size: 14px;
+        left: 69%;
+    }
+
+    .copyrightText {
+        margin: 0;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .but button {
+        top: 42%;
+        left: 28%;
+    }
+
+    #mainlogo img {
+        top: 15%;
+        left: 33%;
+    }
+
+    header div.intro h1 {
+        left: 33%;
+    }
+
+    header div.intro h2 {
+        left: 30%;
+        font-size: 3rem;
+        top: 8%;
+    }
+}
+
+/* @media only screen and (max-width:1175px) {
+    header {
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    header nav ul li {
+        list-style: none;
+        font-size: 20px;
+      }
+}
+*/
+
+@media only screen and (max-width: 600px) {
+    header {
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .topnav {
+        display: block;
+        width: 100%;
+    }
+
+    header div.intro .ph1 {
+        width: 101%;
+        margin-bottom: 0;
+    }
+
+    header div.intro {
+        display: inline-block;
+    }
+
+    header div.intro h1 {
+        font-size: 5rem;
+        top: 6%;
+        left: 26%;
+    }
+
+    header div.intro h2 {
+        top: 15%;
+        left: 23%;
+    }
+
+    #mainlogo img {
+        top: 22%;
+        left: 26%;
+    }
+
+    .but button {
+        left: 20%;
+        font-size: 22px;
+        height: 5%;
+        top: 51%;
+    }
+
+    header div.intro .ph2 {
+        width: 100%;
+        margin-top: -1%;
+    }
+
+    #spec h1 {
+        font-size: 52px;
+    }
+
+    #spec h2 {
+        font-size: 32px;
+        margin-bottom: -13px;
+    }
+
+    .specph {
+        display: block;
+    }
+
+    .r1 {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .r2 {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .r1 .p-1 {
+        width: 90%;
+        margin: 55px 1% 0 5%;
+        height: auto;
+    }
+
+    .r1 .p-1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r1 .p-1 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r1 .p-1 h4 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r1 .p-1 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+
+    .r1 .p-2 {
+        width: 90%;
+        margin: 40px 1% 0 5%;
+        height: auto;
+    }
+
+    .r1 .p-2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r1 .p-2 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r1 .p-2 h4 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r1 .p-2 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r1 .p-3 {
+        width: 90%;
+        margin: 40px 1% 0 5%;
+        height: auto;
+    }
+
+    .r1 .p-3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r1 .p-3 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r1 .p-3 h4 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r1 .p-3 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r2 .p-1 {
+        width: 90%;
+        margin: 40px 1% 0 5%;
+        height: auto;
+    }
+
+    .r2 .p-1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r2 .p-1 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r2 .p-1 h4 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r2 .p-1 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r2 .p-2 {
+        width: 90%;
+        margin: 40px 1% 0 5%;
+        height: auto;
+    }
+
+    .r2 .p-2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r2 .p-2 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r2 .p-2 h4 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r2 .p-2 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r2 .p-3 {
+        width: 90%;
+        margin: 40px 2px 40px 20px;
+        height: auto;
+    }
+
+    .r2 .p-3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r2 .p-3 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r2 .p-3 h4 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r2 .p-3 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r1 .p-1 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+
+    .r1 .p-2 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+
+    .r1 .p-3 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+
+    .r2 .p-1 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+
+    .r2 .p-2 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+
+    .r2 .p-3 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+
+    #recm h1 {
+        font-size: 46px;
+    }
+
+    #recm h2 {
+        font-size: 20px;
+    }
+
+    #recm .srh input {
+        width: 90%;
+        height: 2rem;
+        margin: 6% 0 -2% 0;
+        padding-left: 14px;
+    }
+
+    #recm .srh img {
+        width: 5%;
+        top: 61%;
+        right: 7%;
+    }
+
+    div.rc1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.rc2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.rc3 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .rc1 .p1 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc1 .p2 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc1 .p3 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc1 .p4 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc1 .p1 img {
+        height: 200px;
+    }
+
+    .rc1 .p1 p {
+        font-size: 14px;
+    }
+
+    .rc1 .p1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc1 .p1 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc1 .p1 h4 {
+        font-size: 22px;
+    }
+
+    .rc1 .p2 img {
+        height: 200px;
+    }
+
+    .rc1 .p2 p {
+        font-size: 14px;
+    }
+
+    .rc1 .p2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc1 .p2 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc1 .p2 h4 {
+        font-size: 22px;
+    }
+
+    .rc1 .p3 img {
+        height: 200px;
+    }
+
+    .rc1 .p3 p {
+        font-size: 14px;
+    }
+
+    .rc1 .p3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc1 .p3 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc1 .p3 h4 {
+        font-size: 22px;
+    }
+
+    .rc1 .p4 img {
+        height: 200px;
+    }
+
+    .rc1 .p4 p {
+        font-size: 14px;
+    }
+
+    .rc1 .p4 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc1 .p4 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc1 .p4 h4 {
+        font-size: 22px;
+    }
+
+    .rc2 .p1 {
+        width: 90%;
+        margin: 30px auto;
+        height: 100%;
+    }
+
+    .rc2 .p2 {
+        width: 90%;
+        margin: 30px auto;
+        height: 100%;
+    }
+
+    .rc2 .p3 {
+        width: 90%;
+        margin: 30px auto;
+        height: 100%;
+    }
+
+    .rc2 .p4 {
+        width: 90%;
+        margin: 30px auto;
+        height: 100%;
+    }
+
+    .rc2 .p1 img {
+        height: 200px;
+    }
+
+    .rc2 .p1 p {
+        font-size: 14px;
+    }
+
+    .rc2 .p1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc2 .p1 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc2 .p1 h4 {
+        font-size: 22px;
+    }
+
+    .rc2 .p2 img {
+        height: 200px;
+    }
+
+    .rc2 .p2 p {
+        font-size: 14px;
+    }
+
+    .rc2 .p2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc2 .p2 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc2 .p2 h4 {
+        font-size: 22px;
+    }
+
+    .rc2 .p3 img {
+        height: 200px;
+    }
+
+    .rc2 .p3 p {
+        font-size: 14px;
+    }
+
+    .rc2 .p3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc2 .p3 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc2 .p3 h4 {
+        font-size: 22px;
+    }
+
+    .rc2 .p4 img {
+        height: 200px;
+    }
+
+    .rc2 .p4 p {
+        font-size: 14px;
+    }
+
+    .rc2 .p4 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc2 .p4 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc2 .p4 h4 {
+        font-size: 22px;
+    }
+
+    .rc3 .p1 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc3 .p2 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc3 .p3 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc3 .p4 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc3 .p1 img {
+        height: 200px;
+    }
+
+    .rc3 .p1 p {
+        font-size: 14px;
+    }
+
+    .rc3 .p1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc3 .p1 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc3 .p1 h4 {
+        font-size: 22px;
+    }
+
+    .rc3 .p2 img {
+        height: 200px;
+    }
+
+    .rc3 .p2 p {
+        font-size: 14px;
+    }
+
+    .rc3 .p2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc3 .p2 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc3 .p2 h4 {
+        font-size: 22px;
+    }
+
+    .rc3 .p3 img {
+        height: 200px;
+    }
+
+    .rc3 .p3 p {
+        font-size: 14px;
+    }
+
+    .rc3 .p3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc3 .p3 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc3 .p3 h4 {
+        font-size: 22px;
+    }
+
+    .rc3 .p4 img {
+        height: 200px;
+    }
+
+    .rc3 .p4 p {
+        font-size: 14px;
+    }
+
+    .rc3 .p4 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc3 .p4 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .rc3 .p4 h4 {
+        font-size: 22px;
+    }
+
+    .review-section div h3 {
+        margin-left: 20%;
+        font-size: 46px;
+        margin-top: -17px;
+        margin-bottom: 0px;
+    }
+
+    .reviewflex {
+        display: block;
+    }
+
+    .reviewflex div {
+        width: 90%;
+        margin: 35px auto;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .feedbackplace {
+        display: block;
+    }
+
+    div.rev h2 {
+        font-size: 46px;
+        margin-left: 50px;
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 12px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .revfed {
+        text-align: left;
+        display: block;
+    }
+
+    .revfed h1 {
+        display: block;
+        font-size: 46px;
+        margin-top: 5%;
+        margin-right: 0%;
+        position: relative;
+        margin-bottom: 2%;
+        margin-left: 18%;
+    }
+
+    main form {
+        width: 100%;
+        padding: 0;
+        padding-left: 2%;
+    }
+
+    #fullname {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #email {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #male {
+        margin: 0px 6px;
+        margin-bottom: 3%;
+    }
+
+    #female {
+        margin: 0px 6px;
+        margin-bottom: 3%;
+    }
+
+    #rev {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #rat1 {
+        margin: 2%;
+    }
+
+    #rat2 {
+        margin: 2%;
+    }
+
+    #rat3 {
+        margin: 2%;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
+    }
+
+    footer {
+        padding: 17px 0px 0px 11px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footcontainer {
+        flex-direction: column;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footcontainer .sec.aboutus,
+    .quicklinks,
+    .contact {
+        width: 100%;
+    }
+
+    .copyrightText {
+        margin: 0;
+        width: 100%;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .topp {
+        width: 27%;
+        height: 36%;
+        font-size: 14px;
+        left: 69%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    header div.intro h1 {
+        left: 25%;
+        font-size: 4rem;
+    }
+
+    header div.intro h2 {
+        top: 14%;
+        left: 20%;
+        font-size: 40px;
+    }
+
+    #mainlogo img {
+        left: 25%;
+        height: 250px;
+        width: 250px;
+    }
+
+    .but button {
+        left: 11%;
+        top: 51%;
+    }
+
+    .review-section div h3 {
+        margin-left: 13%;
+    }
+
+    div.rev h2 {
+        font-size: 40px;
+        margin-left: 30px;
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 12px;
+    }
+
+    .revfed h1 {
+        margin-left: 13%;
+    }
+
+    main form {
+        padding: 2% 0 0 2%;
+    }
+
+    main button.sbmt {
+        width: 97%;
+    }
+
+    #rat1 {
+        margin: 3.5%;
+    }
+
+    #rat2 {
+        margin: 3.5%;
+    }
+
+    #rat3 {
+        margin: 3.5%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    header div.intro h1 {
+        left: 20%;
+    }
+
+    header div.intro h2 {
+        left: 15%;
+    }
+
+    #mainlogo img {
+        left: 20%;
+    }
+
+    .but button {
+        left: 15%;
+        width: 75%;
+    }
+
+    header div.intro .ph2 {
+        width: 100%;
+        margin-top: -1%;
+    }
+
+    #spec h1 {
+        font-size: 40px;
+    }
+
+    #spec h2 {
+        font-size: 20px;
+        margin-bottom: -13px;
+    }
+
+    #recm h1 {
+        font-size: 38px;
+    }
+
+    #recm h2 {
+        font-size: 16px;
+    }
+
+    #recm .srh input {
+        width: 90%;
+        height: 2rem;
+        margin: 6% 0 -2% 0;
+        padding-left: 14px;
+    }
+
+    #recm .srh img {
+        width: 7%;
+        top: 52%;
+        right: 7%;
+    }
+
+    .review-section div h3 {
+        margin-left: 13%;
+        font-size: 40px;
+        margin-top: -30px;
+        margin-bottom: -10px;
+    }
+
+    .reviewflex {
+        display: block;
+    }
+
+    .reviewflex div {
+        width: 90%;
+        margin: 35px auto;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .feedbackplace {
+        display: block;
+    }
+
+    div.rev h2 {
+        font-size: 35px;
+        margin-left: 15px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .revfed {
+        text-align: left;
+        display: block;
+    }
+
+    .revfed h1 {
+        display: block;
+        font-size: 34px;
+        margin-top: 9%;
+        position: relative;
+        margin-left: 45px;
+    }
+
+    main form {
+        width: 100%;
+        padding: 4% 0 0 2%;
+    }
+
+    #fullname {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #email {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #male {
+        margin: 0px 6px;
+        margin-bottom: 3%;
+    }
+
+    #female {
+        margin: 0px 6px;
+        margin-bottom: 3%;
+    }
+
+    #rev {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #rat1 {
+        margin: 2%;
+    }
+
+    #rat2 {
+        margin: 2%;
+    }
+
+    #rat3 {
+        margin: 2%;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
+    }
+
+    footer {
+        padding: 17px 0px 0px 11px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footcontainer {
+        flex-direction: column;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footcontainer .sec.aboutus,
+    .quicklinks,
+    .contact {
+        width: 100%;
+    }
+
+    .copyrightText {
+        margin: 0;
+        width: 100%;
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .topp {
+        width: 27%;
+        height: 36%;
+        font-size: 14px;
+        left: 69%;
+    }
+}
+
+
+
+/* @media only screen and (max-width: 1080px) {
+    header {
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    footer {
+        padding: 17px 0px 0px 11px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footcontainer {
+        flex-direction: column;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footcontainer .sec.aboutus,
+    .quicklinks,
+    .contact {
+        width: 100%;
+    }
+
+    .copyrightText {
+        margin: 0;
+        width: 100%;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .topp {
+        width: 27%;
+        height: 36%;
+        font-size: 14px;
+        left: 69%;
+    }
+} */
+@media only screen and (max-width: 350px) {
+    .topp {
+        width: 38%;
+        height: 36%;
+        font-size: 14px;
+        left: 58%;
+        top: 104%;
+    }
+
+    header div.intro h1 {
+        left: 12%;
+    }
+
+    header div.intro h2 {
+        left: 8%;
+    }
+
+    #mainlogo img {
+        left: 13%;
+    }
+
+    .but button {
+        left: 13%;
+        width: 75%;
+        top: 54%;
+    }
+
+    .r1 .p-1 h2 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    #spec h1 {
+        font-size: 40px;
+    }
+
+    #spec h2 {
+        font-size: 20px;
+    }
+
+    header div.intro .ph2 img {
+        width: 100%;
+        height: 93.75%;
+        margin-bottom: 10%;
+    }
+
+    #recm h1 {
+        font-size: 35px;
+    }
+
+    #recm h2 {
+        font-size: 15px;
+    }
+
+    .review-section div h3 {
+        margin-left: 8%;
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    div.rev h2 {
+        font-size: 30px;
+        margin-left: 22px;
+    }
+
+    .revfed h1 {
+        margin-left: 24px;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .topp {
+        width: 38%;
+        height: 36%;
+        font-size: 14px;
+        left: 58%;
+        top: 104%;
+    }
+
+    header div.intro h1 {
+        left: 20%;
+        font-size: 3rem;
+    }
+
+    header div.intro h2 {
+        font-size: 30px;
+        left: 14%;
+    }
+
+    #mainlogo img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .r1 .p-1 h2 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    #spec h1 {
+        font-size: 33px;
+    }
+
+    header div.intro .ph2 img {
+        width: 100%;
+        height: 93.75%;
+        margin-bottom: 10%;
+    }
+
+    #recm h1 {
+        font-size: 28px;
+    }
+
+    #recm h2 {
+        font-size: 12px;
+    }
+
+    .review-section div h3 {
+        margin-left: 8%;
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    div.rev h2 {
+        font-size: 28px;
+        margin-left: 6px;
+    }
+
+    .revfed h1 {
+        margin-left: 24px;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .topp {
+        width: 38%;
+        height: 36%;
+        font-size: 14px;
+        left: 58%;
+        top: 104%;
+    }
+
+    .r1 .p-1 h2 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    #spec h1 {
+        font-size: 31px;
+    }
+
+    #spec h2 {
+        font-size: 17px;
+    }
+
+    header div.intro .ph2 img {
+        width: 100%;
+        height: 93.75%;
+        margin-bottom: 10%;
+    }
+
+    #recm h1 {
+        font-size: 28px;
+    }
+
+    #recm h2 {
+        font-size: 12px;
+    }
+
+    .review-section div h3 {
+        margin-left: 8%;
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    div.rev h2 {
+        font-size: 25px;
+        margin-left: 6px;
+    }
+
+    .revfed h1 {
+        margin-left: 6px;
+        font-size: 30px;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
+    }
+
+    #male {
+        margin: 0;
+    }
+
+    #female {
+        margin: 0;
+    }
+
+    #rat1 {
+        margin: 0;
+    }
+
+    #rat2 {
+        margin: 0;
+    }
+
+    #rat3 {
+        margin: 0;
+    }
+}
